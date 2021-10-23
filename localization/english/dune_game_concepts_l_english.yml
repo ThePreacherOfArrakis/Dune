@@ -1,0 +1,14 @@
+﻿l_english:
+ game_concept_pyons_holding:0 "Pyons Holding"
+ game_concept_pyons_holdings:0 "Pyons Holdings"
+ game_concept_pyons_holding_desc:1 "Pyons are small villages which function as permanent nexuses of trade on Arrakis."
+ game_concept_pyons:0 "Pyons"
+
+ game_concept_sietch_holding:0 "Sietch Holding"
+ game_concept_sietch_holdings:0 "Sietch Holdings"
+ game_concept_sietch_holding_desc:1 "A sietch is a subterranean refuge carved out of deep stone underneath which even the sweltering rays of the sun Canopus dare not penetrate.\n\n"In the challenge of my youth\nI put my back against the wall\nAnd the friendly sietch was a shield behind me;"\n-Excerpt from the Fremen folk song "Ya Kala, Nehibbucum""
+ game_concept_sietch:0 "Sietch"
+
+ game_concept_gold:0 "Spice"
+ game_concept_gold_desc:0 "'Spice,' the geriatric melange, a substance so valuable that the entire wealth of a nation can be held in a vial. The Great Houses of the Imperium vie for their stake of the spice, measureless blood has been spilled over mere handfuls, and when it slips through their fingers, empires collapse.\n\n"The spice," he said, "It’s in everything here—the air, the soil, the food. The geriatric spice. It’s like the Truthsayer drug. It’s a poison!" - Paul Atreides"
+ game_concept_gold_i:0 "@gold_icon!"

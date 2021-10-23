@@ -1,0 +1,19 @@
+texticon = {
+	icon = ice_sheets
+	iconsize = {
+		size = { 24 24 }
+		offset = { 0 4 }
+		texture = "gfx/interface/icons/terrain_types/ice_sheets.dds"
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = basin
+	iconsize = {
+		size = { 24 24 }
+		offset = { 0 4 }
+		texture = "gfx/interface/icons/terrain_types/basin.dds"
+		fontsize = 16
+	}
+}

@@ -1,0 +1,9 @@
+texticon = {
+	icon = zensunni_icon
+	iconsize = {
+		texture = "gfx/interface/icons/faith/zensunni.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

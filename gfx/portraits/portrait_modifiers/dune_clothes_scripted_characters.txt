@@ -1,0 +1,102 @@
+﻿
+clothes_scripted_characters = {
+
+	usage = game
+	selection_behavior = weighted_random
+	fallback = default_clothes
+
+	leto_atreides = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = indian_war_nobility_clothes
+				value = 0.1
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				exists = character:caladaen0001
+				this = character:caladaen0001
+			}
+		}
+	}
+
+	paul_atreides = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = northern_commoner_clothes
+				value = 0.1
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				exists = character:caladaen0002
+				this = character:caladaen0002
+			}
+		}
+	}
+
+	jessica_atreides = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = western_low_nobility_clothes
+				value = 0.1
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_shape
+				value = 1.0
+				template = body_shape_average_clothed
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				exists = character:bg0001
+				this = character:bg0001
+			}
+		}
+	}
+
+
+}

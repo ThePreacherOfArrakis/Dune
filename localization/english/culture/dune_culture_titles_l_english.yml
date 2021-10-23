@@ -1,0 +1,64 @@
+﻿l_english:
+
+### Wanderer ###
+# Feudal / Clan / Tribal
+ baron_feudal_male_wanderer_group:0 "Mudir"
+ baron_feudal_female_wanderer_group:0 "Mudira"
+ count_feudal_male_wanderer_group:0 "Naib"
+ count_feudal_female_wanderer_group:0 "Naiba"
+ duke_feudal_male_wanderer_group:0 "Serasker"
+ duke_feudal_female_wanderer_group:0 "Seraska"
+ king_feudal_male_wanderer_group:0 "King"
+ king_feudal_female_wanderer_group:0 "Queen"
+ emperor_feudal_male_wanderer_group:0 "Emperor"
+ emperor_feudal_female_wanderer_group:0 "Empress"
+
+ baron_tribal_male_wanderer_group:0 "Mudir"
+ baron_tribal_female_wanderer_group:0 "Mudira"
+ count_tribal_male_wanderer_group:0 "Naib"
+ count_tribal_female_wanderer_group:0 "Naiba"
+ duke_tribal_male_wanderer_group:0 "Serasker"
+ duke_tribal_female_wanderer_group:0 "Seraska"
+ king_tribal_male_wanderer_group:0 "King"
+ king_tribal_female_wanderer_group:0 "Queen"
+ emperor_tribal_male_wanderer_group:0 "Emperor"
+ emperor_tribal_female_wanderer_group:0 "Empress"
+
+ barony_wanderer_group:0 "Barony"
+ county_wanderer_group:0 "County"
+ duchy_wanderer_group:0 "Duchy"
+ kingdom_wanderer_group:0 "Kingdom"
+ empire_wanderer_group:0 "Empire"
+
+### Imperial ###
+# Feudal / Clan / Tribal
+ na_baron:0 "Na-Baron"
+
+ baron_feudal_male_imperial_group:0 "Baron"
+ baron_feudal_female_imperial_group:0 "Baroness"
+ count_feudal_male_imperial_group:0 "Count"
+ count_feudal_female_imperial_group:0 "Countessa"
+ duke_feudal_male_imperial_group:0 "Duke"
+ duke_feudal_female_imperial_group:0 "Duchess"
+ lady_feudal_female_imperial_group:0 "Lady" 
+ king_feudal_male_imperial_group:0 "King"
+ king_feudal_female_imperial_group:0 "Queen"
+ emperor_feudal_male_imperial_group:0 "Emperor"
+ emperor_feudal_female_imperial_group:0 "Empress"
+
+ baron_tribal_male_imperial_group:0 "Baron"
+ baron_tribal_female_imperial_group:0 "Baroness"
+ count_tribal_male_imperial_group:0 "Count"
+ count_tribal_female_imperial_group:0 "Countessa"
+ duke_tribal_male_imperial_group:0 "Duke"
+ duke_tribal_female_imperial_group:0 "Duchess"
+ king_tribal_male_imperial_group:0 "King"
+ king_tribal_female_imperial_group:0 "Queen"
+ emperor_tribal_male_imperial_group:0 "Emperor"
+ emperor_tribal_female_imperial_group:0 "Empress"
+
+ barony_imperial_group:0 "Barony"
+ county_imperial_group:0 "County"
+ duchy_imperial_group:0 "Duchy"
+ kingdom_imperial_group:0 "Kingdom"
+ empire_imperial_group:0 "Empire"

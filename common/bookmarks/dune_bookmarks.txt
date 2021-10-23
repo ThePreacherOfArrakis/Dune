@@ -1,0 +1,38 @@
+﻿bm_10190_arrakis = {
+	start_date = 10190.1.1
+	is_playable = yes
+
+	character = {
+		name = "bookmark_arrakis_stilgar_fifrawi"
+		dynasty = 2
+		dynasty_splendor_level = 2
+		type = male
+		birth = 10141.2.12
+		title = d_tabr
+		government = tribal_government
+		culture = fremen
+		religion = zensunni
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = fremen0002
+		position = { 703 322 }
+
+		animation = personality_bold
+	}
+
+	character = {
+		name = "bookmark_arrakis_leto_atreides"
+		dynasty = 1
+		dynasty_splendor_level = 3
+		type = male
+		birth = 10140.1.1
+		title = d_arrakeen
+		government = feudal_government
+		culture = caladaen
+		religion = zensunni
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = caladaen0001
+		position = { 1039 322 }
+
+		animation = personality_bold
+	}
+}

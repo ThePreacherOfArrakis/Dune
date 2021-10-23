@@ -1,0 +1,36 @@
+ice_sheets = {
+	color = { 177 217 222 }
+
+	province_modifier = {
+		supply_limit_mult = -0.90
+		development_growth_factor = -0.35
+	}
+
+	movement_speed = 0.5
+
+	combat_width = 0.25
+
+}
+
+desert = {
+	color = { 201 104 34 }
+	
+	province_modifier = {
+		supply_limit_mult = -0.3
+		development_growth_factor = -0.5
+	}
+	
+	movement_speed = 0.7
+	
+	audio_parameter = 2.0
+}
+
+basin = {
+	color = { 145 81 35 }
+	
+	province_modifier = {
+		supply_limit_mult = 0
+	}
+	
+	audio_parameter = 1.0
+}

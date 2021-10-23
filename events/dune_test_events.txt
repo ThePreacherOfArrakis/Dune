@@ -1,0 +1,21 @@
+
+namespace = dune_test
+
+dune_test.0001 = {
+    type = character_event
+
+    immediate = {
+        every_living_character = {
+            limit = {
+                has_trait = beauty_good_3
+            }
+            root = {
+                add_to_variable_list = {
+                    name = beauty
+                    target = prev
+                }
+            }
+        }
+    }
+
+}

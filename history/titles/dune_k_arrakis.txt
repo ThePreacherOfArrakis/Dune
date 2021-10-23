@@ -1,0 +1,339 @@
+d_tabr = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0002
+	}
+}
+
+d_ghadean = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0003
+	}
+}
+
+d_mount_idaho = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0017
+	}
+}
+
+d_smuggler_territory = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0031
+	}
+}
+
+c_bannerjee = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0017
+	}
+}
+
+c_mount_idaho = {
+	10190.1.1 = {
+		government = tribal_government
+		liege = d_mount_idaho
+	}
+}
+
+c_ghadean_overlook = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0003
+	}
+}
+
+c_murakab = {
+	10190.1.1 = {
+		government = tribal_government
+		liege = "d_ghadean"
+	}
+}
+
+c_arsunt = {
+    10190.1.1 = {
+		government = tribal_government
+	}
+}
+
+c_tabr = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0002
+	}
+}
+
+c_spine_of_arrakis = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0027
+		liege = "d_tabr"
+	}
+}
+
+c_eni_barac = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0001
+		liege = "d_tabr"
+	}
+}
+
+c_celimyn = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0022
+	}
+}
+
+c_silmal_edge = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0029
+	}
+}
+
+c_bight_of_the_cliff = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0024
+	}
+}
+
+c_old_basin = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0016
+	}
+}
+
+c_valley_of_ismad = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0036
+	}
+}
+
+c_tuek = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0031
+	}
+}
+
+d_tuek = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0031
+	}
+}
+
+c_cliff_of_hades = {
+	10190.1.1 = {
+		government = tribal_government
+		liege = "d_tuek"
+	}
+}
+
+c_smugglers_rest = {
+	10190.1.1 = {
+		government = tribal_government
+		liege = "d_smuggler_territory"
+	}
+}
+
+c_smugglers_escape = {
+	10190.1.1 = {
+		government = tribal_government
+		liege = "d_smuggler_territory"
+	}
+}
+
+c_hobars_gap = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0005
+	}
+}
+
+c_rundah_expanse = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0014
+	}
+}
+
+c_tasmin_sink = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0007
+	}
+}
+
+c_musab_sietch = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0037
+	}
+}
+
+c_shoab = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0023
+	}
+}
+
+c_qubea = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0038
+	}
+}
+
+c_funeral_plain = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0004
+	}
+}
+
+c_observatory = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0039
+	}
+}
+
+c_arrakeen = {
+	10190.1.1 = {
+		government = feudal_government
+		holder = caladaen0001
+	}
+}
+
+d_arrakeen = {
+	10190.1.1 = {
+		government = feudal_government
+		holder = caladaen0001
+	}
+}
+
+c_lithium_lines = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0013
+	}
+}
+
+c_meridian = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0009
+	}
+}
+
+c_habbanya_ridge_flat_east = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0010
+	}
+}
+
+c_habbanya_ridge_flat_west = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0011
+	}
+}
+
+c_habbanya_erg = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0012
+	}
+}
+
+c_sareer = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0008
+	}
+}
+
+c_harg = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0041
+	}
+}
+
+c_sentinel_rock = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0042
+	}
+}
+
+c_false_wall_south = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0015
+	}
+}
+
+c_habbanya_ridge = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0020
+	}
+}
+
+c_false_wall_west = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0021
+	}
+}
+
+c_tueno_dunes = {
+	10190.1.1 = {
+		government = tribal_government
+		holder = fremen0030
+	}
+}
+
+c_sihaya = {
+	10190.1.1 = {
+		government = tribal_government
+	}
+}
+
+c_salt_flats = {
+	10190.1.1 = {
+		government = tribal_government
+	}
+}
+
+c_water_peddlers_union_zone = {
+	10190.1.1 = {
+		government = tribal_government
+	}
+}
+
+c_garden_of_shaihulud = {
+	10190.1.1 = {
+		government = tribal_government
+	}
+}
+
+c_tanzerouft = {
+	10190.1.1 = {
+		government = tribal_government
+	}
+}
+

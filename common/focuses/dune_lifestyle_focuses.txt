@@ -1,0 +1,94 @@
+﻿bene_gesserit_the_mouth_focus = {
+	lifestyle = bene_gesserit_lifestyle
+	
+	modifier = {
+		diplomacy = 3
+	}
+
+	desc = {
+		desc = bene_gesserit_the_mouth_focus_desc
+		desc = line_break
+	}
+
+	auto_selection_weight = {
+		value = 11
+		if = {
+			limit = {
+				has_education_diplomacy_trigger = yes
+			}
+			add = 1989
+		}
+		if = {
+			limit = {
+				has_trait = shy
+			}
+			multiply = 0
+		}
+	}
+	
+	focus_id = 15
+}
+
+bene_gesserit_the_eyes_focus = {
+	lifestyle = bene_gesserit_lifestyle
+	
+	modifier = {
+		diplomacy = 1
+		monthly_prestige = 1
+	}
+
+	desc = {
+		desc = bene_gesserit_the_eyes_focus_desc
+		desc = line_break
+	}
+
+	auto_selection_weight = {
+		value = 11
+		if = {
+			limit = {
+				has_education_diplomacy_trigger = yes
+			}
+			add = 1989
+		}
+		if = {
+			limit = {
+				has_trait = arrogant
+			}
+			multiply = 5
+		}
+		if = {
+			limit = {
+				has_trait = ambitious
+			}
+			multiply = 2
+		}
+	}
+
+	focus_id = 16
+}
+
+bene_gesserit_the_mind_focus = {
+	lifestyle = bene_gesserit_lifestyle
+	
+	modifier = {
+		diplomacy = 2
+		fertility = 0.2
+	}
+
+	desc = {
+		desc = bene_gesserit_the_mind_focus_desc
+		desc = line_break
+	}
+
+	auto_selection_weight = {
+		value = 11
+		if = {
+			limit = {
+				has_education_diplomacy_trigger = yes
+			}
+			add = 1989
+		}
+	}
+
+	focus_id = 17
+}

@@ -1,0 +1,2478 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+e_galactic_padishah_empire = {
+	color = { 20 20 20 }
+	color2 = { 100 0 0 }
+
+	capital = c_arrakeen_palace
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:greek
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+
+	k_arrakis = {
+		color =  { 201 104 34 }
+		color2 = { 255 255 255 }
+		
+		capital = c_arrakeen_palace
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:greek
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_old_gap = {
+			color = { 229 204 154 }
+			color2 = { 255 255 255 }
+
+			capital = c_old_gap
+
+			ai_primary_priority = {
+				if = {
+					limit = {
+						culture = culture:greek
+					}
+					add = @correct_culture_primary_score
+				}
+			}
+			
+			c_sihaya = {
+				color = { 69 24 79 }
+				color2 = { 255 255 255 }
+											
+				b_sihaya_north = {
+					province = 9
+					
+					color = { 8 192 209 }
+					color2 = { 255 255 255 }
+				}
+
+				b_sihaya_south = {
+					province = 8
+						
+					color = { 234 158 207 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_sihaya_sea = {
+					province = 7
+						
+					color = { 212 85 101 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_old_gap = {
+			color = { 229 204 154 }
+			color2 = { 255 255 255 }
+
+				b_old_gap = {
+					province = 6
+
+					color = { 137 141 219 }
+					color2 = { 255 255 255 }
+				}
+
+				b_off_rim = {
+					province = 4
+					
+					color = { 21 13 50 }
+					color2 = { 255 255 255 }
+				}
+
+				b_blasted_lands = {
+					province = 5
+
+					color = { 89 43 204 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_kulon = {
+			color = { 219 217 208 }
+			color2 = { 255 255 255 }
+
+			capital = c_kulon
+
+			ai_primary_priority = {
+				if = {
+					limit = {
+						culture = culture:greek
+					}
+					add = @correct_culture_primary_score
+				}
+			}
+
+			c_kulon = {
+				color = { 219 217 208 }
+				color2 = { 255 255 255 }
+
+				b_gara_kulon_sietch = {
+					province = 12
+					
+					color = { 198 182 140 }
+					color2 = { 255 255 255 }
+				}
+
+				b_gara_kulon_flat = {
+					province = 11
+					
+					color = { 114 145 139 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_crimson_wall = {
+				color = { 219 37 46 }
+				color2 = { 255 255 255 }
+
+				b_diyar = {
+					province = 14
+
+					color = { 158 104 107 }
+					color2 = { 255 255 255 }
+				}
+
+				b_crimson_sea = {
+					province = 13
+					
+					color = { 150 9 16 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_arrakeen = {
+			color = { 209 15 34 }
+			color2 = { 255 255 255 }
+
+			capital = c_arrakeen
+
+			ai_primary_priority = {
+				if = {
+					limit = {
+						culture = culture:greek
+					}
+					add = @correct_culture_primary_score
+				}
+			}
+
+			c_arrakeen = {
+				color = { 209 15 34 }
+				color2 = { 255 255 255 }
+
+				b_arrakeen_palace = {
+					province = 87
+
+					color = { 111 38 82 }
+					color2 = { 255 255 255 }
+				}
+
+				b_arrakeen = {
+					province = 86
+
+					color = { 252 139 70 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_plains_of_arrakeen = {
+					province = 167
+
+					color = { 209 91 36 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_broken_mountains = {
+			color = { 193 222 173 }
+			color2 = { 255 255 255 }
+
+			capital = c_observatory
+
+			definite_form = yes
+
+			ai_primary_priority = {
+				if = {
+					limit = {
+						culture = culture:greek
+					}
+					add = @correct_culture_primary_score
+				}
+			}
+
+			c_broken_lands = {
+				color = { 65 87 158 }
+				color2 = { 255 255 255 }
+
+				definite_form = yes
+
+				b_broken_land_west = {
+					province = 85
+
+					color = { 175 85 13 }
+					color2 = { 255 255 255 }
+				}
+
+				b_broken_land_east = {
+					province = 84
+
+					color = { 23 44 109 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_observatory = {
+				color = { 156 37 136 }
+				color2 = { 255 255 255 }
+
+				definite_form = yes
+
+				b_kynes_observatory = {
+					province = 155
+
+					color = { 139 98 198 }
+					color2 = { 255 255 255 }
+				}
+
+				b_observatory_mountain = {
+					province = 80
+
+					color = { 142 47 85 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
+		d_funeral_plain = {
+			color = { 193 222 173 }
+			color2 = { 255 255 255 }
+
+			capital = c_funeral_plain
+
+			ai_primary_priority = {
+				if = {
+					limit = {
+						culture = culture:greek
+					}
+					add = @correct_culture_primary_score
+				}
+			}
+		
+			c_endless_sea = {
+				color = { 131 122 144 }
+				color2 = { 255 255 255 }
+
+				b_endless_sea = {
+					province = 1
+
+					color = { 58 78 116 }
+					color2 = { 255 255 255 }
+				}
+			
+				b_nihaya_mare = {
+					province = 2
+
+					color = { 103 165 215 }
+					color2 = { 255 255 255 }
+				}			
+			}
+
+			c_funeral_plain = {
+				color = { 224 222 227 }
+				color2 = { 255 255 255 }
+
+				b_hollow_plain = {
+					province = 72
+
+					color = { 240 151 125 }
+					color2 = { 255 255 255 }
+				}
+
+				b_jinaza_plain = {
+					province = 73
+
+					color = { 240 86 117}
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_rock_outcroppings = {
+			color = { 250 157 113 }
+			color2 = { 255 255 255 }
+
+			capital = c_samarra_sietch
+
+			ai_primary_priority = {
+				if = {
+					limit = {
+						culture = culture:greek
+					}
+					add = @correct_culture_primary_score
+				}
+			}
+
+			c_rock_outcroppings = {
+				color = { 218 244 159 }
+				color2 = { 255 255 255 }
+
+				b_samarra_sietch = {
+					province = 3
+
+					color = { 78 170 139 }
+					color2 = { 255 255 255 }
+				}
+
+				b_rock_outcroppings = {
+					province = 78
+
+					color = { 218 244 159 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_cave_of_ridges = {
+				color = { 183 170 43 }
+				color2 = { 255 255 255 }
+
+				b_cave_of_ridges = {
+					province = 105
+
+					color = { 183 170 43 }
+					color2 = { 255 255 255 }
+				}
+
+				b_carabine = {
+					province = 108
+
+					color = { 116 99 228 }
+					color2 = { 255 255 255 }
+				}
+			}			
+		}
+
+		d_plaster_mountain = {
+			color = { 161 213 209 }
+			color2 = { 255 255 255 }
+
+			capital = c_plaster_hill
+
+			ai_primary_priority = {
+				if = {
+					limit = {
+						culture = culture:greek
+					}
+					add = @correct_culture_primary_score
+				}
+			}
+
+			c_sloping_sands = {
+				color = { 232 213 64 }
+				color2 = { 255 255 255 }
+
+				b_sloping_sands = {
+					province = 82
+
+					color = { 141 68 88 }
+					color2 = { 255 255 255 }
+				}
+
+				b_al_fayad_shelf = {
+					province = 83
+
+					color = { 4 79 37 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_plaster_hill = {
+				color = { 227 206 148 }
+				color2 = { 255 255 255 }
+
+				b_plaster_hill = {
+					province = 81
+
+					color = { 32 60 136 }
+					color2 = { 255 255 255 }
+				}			
+
+				b_plaster_basin = {
+					province = 79
+
+					color = { 108 153 13 }
+					color2 = { 255 255 255 }
+				}	
+			}
+		}
+
+		d_carthag = {
+			color = { 26 2 6 }
+			color2 = { 255 255 255 }
+
+			capital = c_carthag
+
+			ai_primary_priority = {
+				if = {
+					limit = {
+						culture = culture:greek
+					}
+					add = @correct_culture_primary_score
+				}
+			}
+
+			c_carthag = {
+				color = { 26 2 6 }
+				color2 = { 255 255 255 }
+
+				b_carthag_palace = {
+					province = 93
+
+					color = { 26 2 6 }
+					color2 = { 255 255 255 }
+				}
+			
+				b_carthag = {
+					province = 92
+
+					color = { 64 4 14 }
+					color2 = { 255 255 255 }
+				}
+
+				b_griffins_peak = {
+					province = 94
+
+					color = { 102 6 22 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_tsimpo = {
+				color = { 171 122 239 }
+				color2 = { 255 255 255 }
+
+				b_tsimpo_pyons = {
+					province = 130
+
+					color = { 171 122 239 }
+					color2 = { 255 255 255 }
+				}
+		
+				b_hariz_pyons = {
+					province = 133
+
+					color = { 58 17 33 }
+					color2 = { 255 255 255 }
+				}
+		
+				b_muraqib_pyons = {
+					province = 132
+
+					color = { 235 177 0 }
+					color2 = { 255 255 255 }
+				}
+			
+				b_bilar_pyons = {
+					province = 131
+
+					color = { 177 93 123 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_arsunt = {
+				color = { 215 160 89 }
+				color2 = { 255 255 255 }
+
+				b_arsunt_pyons = {
+					province = 129
+
+					color = { 215 160 89 }
+					color2 = { 255 255 255 }
+				}
+
+				b_mudah_mana = {
+					province = 128
+
+					color = { 171 85 141 }
+					color2 = { 255 255 255 }
+				}
+
+				b_shaheeds_bluff = {
+					province = 127
+
+					color = { 153 81 32 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_imperial_basin = {
+			color = { 54 54 54 }
+			color2 = { 255 255 255 }
+
+			capital = c_imperial_basin
+
+			ai_primary_priority = {
+				if = {
+					limit = {
+						culture = culture:greek
+					}
+					add = @correct_culture_primary_score
+				}
+			}
+
+			c_imperial_basin = {
+				color = { 87 87 87 }
+				color2 = { 255 255 255 }
+
+				b_blade_of_the_empire = {
+					province = 91
+
+					color = { 54 54 54 }
+					color2 = { 255 255 255 }
+				}
+
+				b_imperial_basin = {
+					province = 90
+
+					color = { 87 87 87 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_imperial_valley = {
+				color = { 120 120 120 }
+				color2 = { 255 255 255 }
+
+				b_imperial_valley = {
+					province = 89
+
+					color = { 120 120 120 }
+					color2 = { 255 255 255 }
+				}
+
+				b_imperial_causeway = {
+					province = 88
+
+					color = { 153 153 153 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_flat = {
+			color = { 252 86 25 }
+			color2 = { 255 255 255 }
+
+			capital = c_great_flat
+
+			definite_form = yes
+
+			c_great_flat = {
+				color = { 252 86 25 }
+				color2 = { 255 255 255 }
+
+				b_great_flat_north = {
+					province = 64
+
+					color = { 207 70 21 }
+					color2 = { 255 255 255 }
+				}
+
+				b_great_flat_central = {
+					province = 63
+
+					color = { 252 86 25 }
+					color2 = { 255 255 255 }
+				}				
+			
+				b_great_flat_south = {
+					province = 62
+
+					color = { 145 49 15 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_greater_flat = {
+				color = { 219 167 35 }
+				color2 = { 255 255 255 }
+
+				b_greater_flat_central = {
+					province = 60
+
+					color = { 219 167 35 }
+					color2 = { 255 255 255 }
+				}
+			
+				b_greater_flat_north = {
+					province = 61
+
+					color = { 184 140 29 }
+					color2 = { 255 255 255 }
+				}
+			
+				b_greater_flat_south = {
+					province = 59
+
+					color = { 143 109 23 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
+		d_polar_sink = {
+			color = { 252 251 250 }
+			color2 = { 255 255 255 }
+
+			capital = c_polar_cap
+
+			c_polar_sink = {
+				color = { 252 251 250 }
+				color2 = { 255 255 255 }
+
+				b_polar_cap = {
+					province = 121
+
+					color = { 252 251 250 }
+					color2 = { 255 255 255 }
+				}
+
+				b_polar_sink = {
+					province = 122
+
+					color = { 192 215 252 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_choam_polar_zone = {
+				color = { 252 241 230 }
+				color2 = { 255 255 255 }
+
+				b_choam_ice_core_processing = {
+					province = 204
+
+					color = { 252 241 230 }
+					color2 = { 255 255 255 }
+				}
+
+				b_choam_polar_holdings = {
+					province = 123
+
+					color = { 252 241 230 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_water_peddlers_union_zone = {
+				color = { 192 252 215 }
+				color2 = { 255 255 255 }
+
+				b_water_peddlers_union_industrial_complex = {
+					province = 205
+
+					color = { 29 82 92 }
+					color2 = { 255 255 255 }
+				}
+
+				b_water_peddlers_union_zone = {
+					province = 120
+
+					color = { 192 252 215 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_habbanya = {
+			color = { 103 214 166 }
+			color2 = { 255 255 255 }
+
+			capital = c_habbanya_ridge
+
+			c_habbanya_ridge = {
+				color = { 92 214 73 }
+				color2 = { 255 255 255 }
+
+				b_shishakli_sietch = {
+					province = 57
+
+					color = { 92 214 73 }
+					color2 = { 255 255 255 }
+				}
+
+				b_habbanya_ridge = {
+					province = 189
+
+					color = { 102 177 209 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_habbanya_ridge_flat_west = {
+				color = { 21 214 111 }
+				color2 = { 255 255 255 }
+
+				b_cave_of_birds = {
+					province = 71
+
+					color = { 215 236 252 }
+					color2 = { 255 255 255 }
+				}
+
+				b_habbanya_ridge_flat_west = {
+					province = 56
+
+					color = { 21 214 111 }
+					color2 = { 255 255 255 }
+				}
+			}	
+
+			c_habbanya_ridge_flat_east = {
+				color = { 196 124 79 }
+				color2 = { 255 255 255 }
+
+				b_legg_sietch = {
+					province = 191
+
+					color = { 218 231 169 }
+					color2 = { 255 255 255 }
+				}
+
+				b_habbanya_ridge_flat_east = {
+					province = 55
+
+					color = { 196 124 79 }
+					color2 = { 255 255 255 }
+				}
+			}	
+
+			c_valley_of_ismad = {
+				color = { 255 48 73 }
+				color2 = { 255 255 255 }
+
+				b_ismad_sietch = {
+					province = 190
+
+					color = { 38 19 109 }
+					color2 = { 255 255 255 }
+				}
+
+				b_valley_of_ismad = {
+					province = 68
+
+					color = { 255 48 73 }
+					color2 = { 255 255 255 }
+				}
+			}	
+
+			c_habbanya_erg = {
+				color = { 51 214 165 }
+				color2 = { 255 255 255 }
+
+				b_fash_sietch = {
+					province = 66
+
+					color = { 41 194 214 }
+					color2 = { 255 255 255 }
+				}
+
+				b_habbanya_erg = {
+					province = 58
+
+					color = { 51 214 165 }
+					color2 = { 255 255 255 }
+				}
+			}	
+		}
+
+		d_meridian = {
+			color = { 107 39 27 }
+			color2 = { 255 255 255 }
+
+			capital = c_meridian
+
+			definite_form = yes
+
+			c_meridian = {
+				color = { 107 39 27 }
+				color2 = { 255 255 255 }
+
+				b_umbu_sietch = {
+					province = 197
+
+					color = { 69 80 63 }
+					color2 = { 255 255 255 }
+				}
+
+				b_meridian = {
+					province = 54
+
+					color = { 107 39 27 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_battered_waste = {
+				color = { 64 1 17 }
+				color2 = { 255 255 255 }
+
+				b_battered_sietch = {
+					province = 198
+
+					color = { 221 210 141 }
+					color2 = { 255 255 255 }
+				}
+
+				b_battered_waste = {
+					province = 20
+
+					color = { 64 1 17 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_cielago = {
+			color = { 140 122 127 }
+			color2 = { 255 255 255 }
+
+			capital = c_cielago_embankment
+
+			definite_form = yes
+
+			c_cielago = {
+				color = { 173 151 157 }
+				color2 = { 255 255 255 }
+
+				b_cielago_embankment = {
+					province = 47
+
+					color = { 173 151 157 }
+					color2 = { 255 255 255 }
+				}
+
+				b_cielago_south = {
+					province = 46
+
+					color = { 163 143 227 }
+					color2 = { 255 255 255 }
+				}
+
+				b_cielago_east = {
+					province = 45
+
+					color = { 113 111 214 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_cielago_depression  = {
+				color = { 204 128 78 }
+				color2 = { 255 255 255 }
+
+				b_cielago_depression_east = {
+					province = 48
+
+					color = { 204 128 78 }
+					color2 = { 255 255 255 }
+				}
+
+				b_cielago_depression_west = {
+					province = 49
+
+					color = { 230 217 78 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_sareer = {
+			color = { 34 230 116 }
+			color2 = { 255 255 255 }
+
+			capital = c_sareer
+
+			definite_form = yes
+
+			c_sareer = {
+				color = { 132 14 230 }
+				color2 = { 255 255 255 }
+
+				b_saajid_sietch = {
+					province = 217
+
+					color = { 77 77 113 }
+					color2 = { 255 255 255 }
+				}
+
+				b_sareer = {
+					province = 18
+
+					color = { 132 14 230 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_tanzerouft = {
+				color = { 117 34 6 }
+				color2 = { 255 255 255 }
+
+				b_shuloch = {
+					province = 218
+
+					color = { 117 34 6 }
+					color2 = { 255 255 255 }
+				}
+
+				b_tanzerouft = {
+					province = 19
+
+					color = { 117 34 6 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_ibad_mountains = {
+			color = { 50 217 250 }
+			color2 = { 255 255 255 }
+
+			capital = c_sinas_waste
+
+			definite_form = yes
+
+			c_bene_sherk = {
+				color = { 42 183 212 }
+				color2 = { 255 255 255 }
+
+				b_bene_sherk = {
+					province = 22
+
+					color = { 42 183 212 }
+					color2 = { 255 255 255 }
+				}
+
+				b_bene_bled = {
+					province = 24
+
+					color = { 212 0 11 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_gara_rulen = {
+				color = { 7 237 214 }
+				color2 = { 255 255 255 }
+
+				b_gara_rulen_sietch = {
+					province = 220
+
+					color = { 200 199 168 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_gara_rulen = {
+					province = 23
+
+					color = { 7 237 214 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_lake_azrak = {
+				color = { 170 237 26 }
+				color2 = { 255 255 255 }
+
+				b_sietch_jacurutu = {
+					province = 219
+
+					color = { 124 19 50 }
+					color2 = { 255 255 255 }
+				}
+
+				b_lake_azrak = {
+					province = 21
+
+					color = { 170 237 26 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_false_wall_west = {
+			color = { 189 95 55 }
+			color2 = { 255 255 255 }
+
+			capital = c_false_wall_west
+
+			c_false_wall_west = {
+				color = { 42 183 212 }
+				color2 = { 255 255 255 }
+
+				b_turok_sietch = {
+					province = 67
+
+					color = { 204 43 80 }
+					color2 = { 255 255 255 }
+				}
+
+				b_false_wall_west = {
+					province = 69
+
+					color = { 42 183 212 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_qubea = {
+				color = { 227 151 118 }
+				color2 = { 255 255 255 }
+
+				b_makab_sietch = {
+					province = 192
+
+					color = { 112 17 109 }
+					color2 = { 255 255 255 }
+				}
+
+				b_qubea = {
+					province = 70
+
+					color = { 227 151 118 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_al_dhayl = {
+				color = { 120 171 89 }
+				color2 = { 255 255 255 }
+
+				b_al_dhayl_sietch = {
+					province = 193
+
+					color = { 175 152 175 }
+					color2 = { 255 255 255 }
+				}
+
+				b_al_dhayl = {
+					province = 74
+
+					color = { 120 171 89 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_smuggler_territory = {
+			color = { 127 144 219 }
+			color2 = { 255 255 255 }
+
+			capital = c_smugglers_escape
+
+			c_smugglers_escape = {
+				color = { 36 57 150 }
+				color2 = { 255 255 255 }
+
+				b_smugglers_hideaway = {
+					province = 30
+
+					color = { 36 57 150 }
+					color2 = { 255 255 255 }
+				}
+
+				b_smugglers_escape = {
+					province = 156
+
+					color = { 6 196 28 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_smugglers_rest = {
+				color = { 93 124 168 }
+				color2 = { 255 255 255 }
+
+				b_smugglers_rest = {
+					province = 32
+
+					color = { 93 124 168 }
+					color2 = { 255 255 255 }
+				}
+
+				b_erglow = {
+					province = 17
+
+					color = { 230 224 115 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_rundah = {
+			color = { 123 97 199 }
+			color2 = { 255 255 255 }
+
+			capital = c_smugglers_hideaway
+
+			c_rundah_expanse = {
+				color = { 165 57 204 }
+				color2 = { 255 255 255 }
+
+				b_sietch_takim = {
+					province = 224
+
+					color = { 95 71 51 }
+					color2 = { 255 255 255 }
+				}
+
+				b_rundah_expanse = {
+					province = 16
+
+					color = { 165 57 204 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_rundah_crags = {
+				color = { 94 3 128 }
+				color2 = { 255 255 255 }
+
+				b_rundah_crags = {
+					province = 15
+					
+					color = { 94 3 128 }
+					color2 = { 255 255 255 }
+				}
+
+				b_rundah_bled = {
+					province = 223
+					
+					color = { 144 115 91 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_false_wall_south = {
+			color = { 191 179 143 }
+			color2 = { 255 255 255 }
+
+			capital = c_false_wall_south
+
+			c_false_wall_south = {
+				color = { 181 153 76 }
+				color2 = { 255 255 255 }
+
+				b_bikouros_sietch = {
+					province = 157
+					
+					color = { 88 45 105 }
+					color2 = { 255 255 255 }
+				}
+
+				b_false_wall_south = {
+					province = 25
+
+					color = { 181 153 76 }
+					color2 = { 255 255 255 }
+				}
+
+				b_south_sand_sea = {
+					province = 187
+
+					color = { 186 37 135 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_sentinel_rock = {
+				color = { 140 14 41 }
+				color2 = { 255 255 255 }
+
+				b_dharthas_sietch = {
+					province = 213
+					
+					color = { 216 69 82 }
+					color2 = { 255 255 255 }
+				}
+
+				b_sentinel_rock = {
+					province = 214
+					
+					color = { 212 36 52 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_chin_rock_sietch = {
+				color = { 99 77 5 }
+				color2 = { 255 255 255 }
+
+				b_chin_rock_sietch = {
+					province = 29
+					
+					color = { 99 77 5 }
+					color2 = { 255 255 255 }
+				}
+
+				b_chin_rock = {
+					province = 188
+					
+					color = { 204 151 186}
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_false_wall_east = {
+			color = { 209 111 193 }
+			color2 = { 255 255 255 }
+
+			capital = c_false_wall_east
+
+			c_false_wall_east = {
+				color = { 114 136 150 }
+				color2 = { 255 255 255 }
+
+				b_false_wall_east_sietch = {
+					province = 26
+					
+					color = { 24 44 56 }
+					color2 = { 255 255 255 }
+				}
+
+				b_false_wall_east = {
+					province = 27
+
+					color = { 114 136 150 }
+					color2 = { 255 255 255 }
+				}
+
+				b_false_wall_east_dunes = {
+					province = 212
+
+					color = { 53 124 74 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_hole_in_the_rock = {
+				color = { 26 193 227 }
+				color2 = { 255 255 255 }
+
+				b_hole_in_the_rock = {
+					province = 135
+
+					color = { 26 193 227 }
+					color2 = { 255 255 255 }
+				}
+
+				b_chamber_of_arrakis = {
+					province = 149
+
+					color = { 61 206 99 }
+					color2 = { 255 255 255 }
+				}
+
+				b_way_of_shaahla = {
+					province = 134
+
+					color = { 195 213 153 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_bledan = {
+				color = { 37 70 142 }
+				color2 = { 255 255 255 }
+
+				b_bledan_sietch = {
+					province = 147
+
+					color = { 37 70 142 }
+					color2 = { 255 255 255 }
+				}
+
+				b_bledan_ridge = {
+					province = 211
+
+					color = { 68 22 77 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_deep_desert = {
+			color = { 232 139 32 }
+			color2 = { 255 255 255 }
+
+			capital = c_false_wall_east
+
+			c_slipway = {
+				color = { 114 136 150 }
+				color2 = { 255 255 255 }
+
+				b_slipway_sietch = {
+					province = 203
+
+					color = { 27 75 73 }
+					color2 = { 255 255 255 }
+				}
+
+				b_slipway = {
+					province = 50
+
+					color = { 114 136 150 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_garden_of_shaihulud = {
+				color = { 214 185 152 }
+				color2 = { 255 255 255 }
+
+				b_cave_of_gehenna = {
+					province = 200
+					
+					color = { 254 194 47 }
+					color2 = { 255 255 255 }
+				}
+
+				b_garden_of_shaihulud = {
+					province = 51
+					
+					color = { 214 185 152 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_kadem = {
+				color = { 143 137 130 }
+				color2 = { 255 255 255 }
+
+				b_parched_sea = {
+					province = 52
+					
+					color = { 143 137 130 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_parched_hills = {
+					province = 202
+					
+					color = { 143 137 130 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_desert_of_zan = {
+				color = { 191 189 187 }
+				color2 = { 255 255 255 }
+
+				b_alku_tathban_sietch = {
+					province = 201
+					
+					color = { 209 187 132 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_desert_of_zan = {
+					province = 53
+					
+					color = { 191 189 187 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_tasmin_sink = {
+				color = { 0 219 141 }
+				color2 = { 255 255 255 }
+
+				b_hailstone_cave = {
+					province = 209
+
+					color = { 20 82 167 }
+					color2 = { 255 255 255 }
+				}
+
+				b_tasmin_sink = {
+					province = 148
+
+					color = { 0 219 141 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_minor_erg = {
+			color = { 105 179 174 }
+			color2 = { 255 255 255 }
+
+			capital = c_minor_erg
+
+			c_minor_erg = {
+				color = { 135 149 163 }
+				color2 = { 255 255 255 }
+
+				b_minor_erg_sietch = {
+					province = 185
+
+					color = { 41 74 70 }
+					color2 = { 255 255 255 }
+				}
+
+				b_minor_erg = {
+					province = 146
+
+					color = { 135 149 163 }
+					color2 = { 255 255 255 }
+				}
+
+				b_khali_sand_sea = {
+					province = 186
+
+					color = { 61 9 43 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_harg = {
+				color = { 213 230 209 }
+				color2 = { 255 255 255 }
+
+				b_harg_sietch = {
+					province = 183
+					
+					color = { 66 201 150 }
+					color2 = { 255 255 255 }
+				}
+
+				b_harg_pass = {
+					province = 182
+					
+					color = { 80 204 104 }
+					color2 = { 255 255 255 }
+				}
+
+				b_harg = {
+					province = 28
+					
+					color = { 27 128 46 }
+					color2 = { 255 255 255 }
+				}
+
+			}
+
+			c_salt_flats = {
+				color = { 235 235 235 }
+				color2 = { 255 255 255 }
+
+				b_salt_mine = {
+					province = 184
+					
+					color = { 122 138 102 }
+					color2 = { 255 255 255 }
+				}
+
+				b_salt_flats = {
+					province = 150
+					
+					color = { 235 235 235 }
+					color2 = { 255 255 255 }
+				}
+
+				b_great_salt_pan = {
+					province = 210
+					
+					color = { 151 197 199 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_tuek = {
+			color = { 42 84 209 }
+			color2 = { 255 255 255 }
+
+			capital = c_tueks_sietch
+
+			c_tuek = {
+				color = { 110 139 224 }
+				color2 = { 255 255 255 }
+
+				b_tueks_sietch = {
+					province = 31
+
+					color = { 110 139 224 }
+					color2 = { 255 255 255 }
+				}
+
+				b_tuek = {
+					province = 216
+
+					color = { 136 79 88 }
+					color2 = { 255 255 255 }
+				}
+
+				b_tueks_watermine = {
+					province = 215
+
+					color = { 202 120 133 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_cliff_of_hades = {
+				color = { 102 100 85 }
+				color2 = { 255 255 255 }
+
+				b_cliff_of_hades= {
+					province = 36
+					
+					color = { 102 100 85 }
+					color2 = { 255 255 255 }
+				}
+
+				b_dropoff = {
+					province = 33
+					
+					color = { 93 50 107 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_ghadean = {
+			color = { 203 207 174 }
+			color2 = { 255 255 255 }
+
+			capital = c_ghadean_overlook
+
+			c_ghadean_overlook = {
+				color = { 110 139 224 }
+				color2 = { 255 255 255 }
+
+				b_ghadean_overlook = {
+					province = 39
+
+					color = { 110 139 224 }
+					color2 = { 255 255 255 }
+				}
+
+				b_mysarij = {
+					province = 38
+					
+					color = { 93 50 107 }
+					color2 = { 255 255 255 }
+				}
+
+				b_sanrat_sayid = {
+					province = 42
+					
+					color = { 102 100 85 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_murakab = {
+				color = { 110 139 224 }
+				color2 = { 255 255 255 }
+
+				b_murakab_west = {
+					province = 34
+					
+					color = { 93 50 107 }
+					color2 = { 255 255 255 }
+				}
+
+				b_murakab_east = {
+					province = 35
+
+					color = { 110 139 224 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_mesa = {
+			color = { 240 208 127 }
+			color2 = { 255 255 255 }
+
+			capital = c_short_mesa
+
+			definite_form = yes
+
+			c_short_mesa = {
+				color = { 165 186 217 }
+				color2 = { 255 255 255 }
+
+				b_short_mesa = {
+					province = 152
+
+					color = { 165 186 217 }
+					color2 = { 255 255 255 }
+				}
+
+				b_nuqtat_tilaq = {
+					province = 40
+					
+					color = { 71 125 95 }
+					color2 = { 255 255 255 }
+				}
+
+				b_yakhtu = {
+					province = 41
+
+					definite_form = yes
+
+					color = { 244 236 126 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_west_mesa = {
+				color = { 227 225 195 }
+				color2 = { 255 255 255 }
+
+				b_west_mesa = {
+					province = 153
+					
+					color = { 227 225 195 }
+					color2 = { 255 255 255 }
+				}
+
+				b_interface = {
+					province = 154
+
+					definite_form = yes
+
+					color = { 178 136 211 }
+					color2 = { 255 255 255 }
+				}
+
+				b_mutasi_mysa = {
+					province = 37
+					
+					color = { 132 163 146 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_great_shield = {
+				color = { 222 226 16 }
+				color2 = { 255 255 255 }
+
+				b_great_shield_east = {
+					province = 225
+
+					color = { 112 150 203 }
+					color2 = { 255 255 255 }
+				}
+
+				b_great_shield_west = {
+					province = 151
+
+					color = { 222 226 16 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}	
+
+		d_rimwall = {
+			color = { 128 106 96 }
+			color2 = { 255 255 255 }
+
+			capital = c_rimwall_west
+
+			c_rimwall_west = {
+				color = { 0 41 23 }
+				color2 = { 255 255 255 }
+
+				b_rimwall_west  = {
+					province = 139
+
+					color = { 184 135 74 }
+					color2 = { 255 255 255 }
+				}
+
+				b_hermetic_pass = {
+					province = 44
+
+					color = { 132 125 131 }
+					color2 = { 255 255 255 }
+				}
+
+				b_inner_rim = {
+					province = 138
+
+					color = { 39 145 207 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_rimwall_east = {
+				color = { 48 53 194 }
+				color2 = { 255 255 255 }
+
+				b_rimwall_east  = {
+					province = 137
+
+					color = { 140 186 181 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_basin = {
+					province = 10
+
+					color = { 76 205 136 }
+					color2 = { 255 255 255 }
+				}
+
+				b_waardas_gorge = {
+					province = 141
+
+					color = { 243 103 219 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_hobars_gap = {
+				color = { 52 187 58 }
+				color2 = { 255 255 255 }
+
+				b_hobars_sietch = {
+					province = 222
+
+					color = { 52 187 58 }
+					color2 = { 255 255 255 }
+				}
+
+				b_hobars_gap = {
+					province = 43
+
+					color = { 52 187 58 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_lithis = {
+			color = { 208 20 148 }
+			color2 = { 255 255 255 }
+
+			capital = c_lithium_lines
+
+			c_lithium_lines = {
+				color = { 102 135 230 }
+				color2 = { 255 255 255 }
+
+				b_keke_sietch  = {
+					province = 171
+
+					color = { 102 135 230 }
+					color2 = { 255 255 255 }
+				}
+
+				b_lithium_lines = {
+					province = 143
+
+					color = { 102 135 230 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_utah = {
+				color = { 124 43 183 }
+				color2 = { 255 255 255 }
+
+				b_great_salt = {
+					province = 145
+
+					color = { 124 43 183 }
+					color2 = { 255 255 255 }
+				}
+
+				b_bryce_canyon = {
+					province = 169
+
+					color = { 166 126 191 }
+					color2 = { 255 255 255 }
+				}
+
+				b_moab = {
+					province = 170
+
+					color = { 55 163 161 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_valum_formation = {
+				color = { 192 202 111 }
+				color2 = { 255 255 255 }
+
+				b_valum_plateau = {
+					province = 144
+
+					color = { 192 202 111 }
+					color2 = { 255 255 255 }
+				}
+
+				b_valum_drop = {
+					province = 172
+
+					color = { 140 143 184 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_shield_wall = {
+			color = { 241 62 156 }
+			color2 = { 255 255 255 }
+
+			capital = c_shield_wall
+
+			c_shield_wall = {
+				color = { 76 10 98 }
+				color2 = { 255 255 255 }
+
+				b_shield_wall_north = {
+					province = 140
+
+					color = { 76 10 98 }
+					color2 = { 255 255 255 }
+				}
+
+				b_shield_wall_south = {
+					province = 168
+
+					color = { 133 191 126 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_shield_plateau = {
+				color = { 55 244 199 }
+				color2 = { 255 255 255 }
+
+				b_shield_plateau = {
+					province = 136
+
+					color = { 55 244 199 }
+					color2 = { 255 255 255 }
+				}
+
+				b_false_hole = {
+					province = 142
+
+					color = { 161 210 225 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_cielago_west = {
+			color = { 46 25 45 }
+			color2 = { 255 255 255 }
+
+			capital = c_cielago_west
+
+			c_cielago_west = {
+				color = { 254 233 64 }
+				color2 = { 255 255 255 }
+
+				b_cielago_west_sietch = {
+					province = 195
+
+					color = { 118 203 126 }
+					color2 = { 255 255 255 }
+				}
+
+				b_cielago_west = {
+					province = 75
+
+					color = { 254 233 64 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_alqa_dam = {
+				color = { 3 175 23 }
+				color2 = { 255 255 255 }
+
+				b_alqa_dam_sietch = {
+					province = 194
+
+					color = { 130 169 176 }
+					color2 = { 255 255 255 }
+				}
+
+				b_alqa_dam = {
+					province = 77
+
+					color = { 3 175 23 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_musab_sietch = {
+				color = { 193 90 114 }
+				color2 = { 255 255 255 }
+
+				b_musab_sietch = {
+					province = 76
+
+					color = { 193 90 114 }
+					color2 = { 255 255 255 }
+				}
+
+				b_musab = {
+					province = 196
+
+					color = { 60 190 125 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_tueno = {
+			color = { 33 154 184 }
+			color2 = { 255 255 255 }
+
+			capital = c_tueno_sietch
+
+			c_tueno_dunes = {
+				color = { 108 65 157 }
+				color2 = { 255 255 255 }
+
+				b_tueno_sietch = {
+					province = 112
+
+					color = { 44 25 145 }
+					color2 = { 255 255 255 }
+				}
+
+				b_tueno_dunes = {
+					province = 111
+
+					color = { 108 65 157 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_tueno_basin = {
+				color = { 82 147 102 }
+				color2 = { 255 255 255 }
+
+				b_tueno_basin_west = {
+					province = 113
+
+					color = { 82 147 102 }
+					color2 = { 255 255 255 }
+				}
+
+				b_tueno_basin_east = {
+					province = 199
+
+					color = { 82 147 102 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_wind_pass = {
+			color = { 40 15 213 }
+			color2 = { 255 255 255 }
+
+			capital = c_wind_pass
+
+			c_wind_pass = {
+				color = { 215 220 41 }
+				color2 = { 255 255 255 }
+
+				b_wind_pass_sietch = {
+					province = 207
+
+					color = { 103 86 171 }
+					color2 = { 255 255 255 }
+				}
+
+				b_wind_pass = {
+					province = 109
+
+					color = { 215 220 41 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_qanaa = {
+				color = { 29 254 248 }
+				color2 = { 255 255 255 }
+
+				b_qanaa_sietch = {
+					province = 208
+
+					color = { 57 84 84 }
+					color2 = { 255 255 255 }
+				}
+
+				b_qanaa_pass = {
+					province = 125
+
+					color = { 29 254 248 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_oxtyn_erg = {
+				color = { 127 47 26 }
+				color2 = { 255 255 255 }
+
+				b_oxtyn_sietch = {
+					province = 206
+
+					color = { 17 97 64 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_oxtyn_erg = {
+					province = 110
+
+					color = { 127 47 26 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_old_basin = {
+			color = { 196 239 131 }
+			color2 = { 255 255 255 }
+
+			capital = c_old_basin
+
+			c_old_basin = {
+				color = { 230 231 240 }
+				color2 = { 255 255 255 }
+
+				b_sietch_cahueit = {
+					province = 232
+
+					color = { 64 15 137 }
+					color2 = { 255 255 255 }
+				}
+
+				b_old_basin = {
+					province = 124
+
+					color = { 230 231 240 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_qanaa_shaft = {
+				color = { 126 88 99 }
+				color2 = { 255 255 255 }
+
+				b_qanaa_pyons = {
+					province = 181
+
+					color = { 84 67 30 }
+					color2 = { 255 255 255 }
+				}
+
+				b_qanaa_shaft = {
+					province = 126
+
+					color = { 126 88 99 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_hagga_basin = {
+			color = { 75 38 4 }
+			color2 = { 255 255 255 }
+
+			capital = c_hagga_delta
+
+			c_hagga_delta = {
+				color = { 151 193 236 }
+				color2 = { 255 255 255 }
+
+				b_ain_dar_pyons = {
+					province = 178
+
+					color = { 195, 227, 191 }
+					color2 = { 255 255 255 }
+				}
+
+				b_hagga_delta = {
+					province = 98
+
+					color = { 151 193 236 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_cup_of_hagga = {
+				color = { 229 200 42 }
+				color2 = { 255 255 255 }
+
+				b_umma_pyons = {
+					province = 175
+
+					color = { 223 227 191 }
+					color2 = { 255 255 255 }
+				}		
+
+				b_cup_of_hagga = {
+					province = 95
+
+					color = { 229 200 42 }
+					color2 = { 255 255 255 }
+				}			
+			}
+
+			c_clasp_of_hagga = {
+				color = { 142 96 253 }
+				color2 = { 255 255 255 }
+
+				b_suhmi_pyons = {
+					province = 177
+
+					color = { 138 125 117 }
+					color2 = { 255 255 255 }
+				}
+
+				b_clasp_of_hagga = {
+					province = 96
+
+					color = { 142 96 253 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_hand_of_hagga = {
+			color = { 131 81 150 }
+			color2 = { 255 255 255 }
+
+			capital = c_hagga_knuckle
+
+			c_haggas_knuckle = {
+				color = { 40 39 133 }
+				color2 = { 255 255 255 }
+
+				b_sybah_pyons = {
+					province = 179
+
+					color = { 99 86 81 }
+					color2 = { 255 255 255 }
+				}
+
+				b_haggas_knuckle = {
+					province = 99
+
+					color = { 40 39 133 }
+					color2 = { 255 255 255 }
+				}	
+			}
+
+			c_haggas_finger = {
+				color = { 164 66 110 }
+				color2 = { 255 255 255 }
+
+				b_raylah_pyons = {
+					province = 180
+
+					color = { 125 30 103 }
+					color2 = { 255 255 255 }
+				}
+
+				b_haggas_finger = {
+					province = 100
+
+					color = { 164 66 110 }
+					color2 = { 255 255 255 }
+				}	
+			}
+
+			c_haggas_thumb = {
+				color = { 88 218 32 }
+				color2 = { 255 255 255 }
+
+				b_alba_pyons = {
+					province = 176
+
+					color = { 32 38 145 }
+					color2 = { 255 255 255 }
+				}
+
+				b_haggas_thumb = {
+					province = 101
+
+					color = { 88 218 32 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_hagg_hill = {
+			color = { 137 37 94 }
+			color2 = { 255 255 255 }
+
+			capital = c_hagg_hill
+
+			c_hagg_hill = {
+				color = { 190 89 37 }
+				color2 = { 255 255 255 }
+
+				b_sietch_hagga = {
+					province = 221
+
+					color = { 84 84 180 }
+					color2 = { 255 255 255 }
+				}
+
+				b_hagg_hill = {
+					province = 97
+
+					color = { 190 89 37 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_hydwa_tawil = {
+				color = { 1 242 204 }
+				color2 = { 255 255 255 }
+
+				b_heinars_sietch = {
+					province = 226
+
+					color = { 78 78 156 }
+					color2 = { 255 255 255 }
+				}
+
+				b_hydwa_tawil = {
+					province = 119
+
+					color = { 1 242 204 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_shoab = {
+				color = { 103 193 222 }
+				color2 = { 255 255 255 }
+
+				b_sietch_shoab = {
+					province = 227
+
+					color = { 171 206 237 }
+					color2 = { 255 255 255 }
+				}
+
+				b_splintered_rock = {
+					province = 102
+
+					color = { 103 193 222 }
+					color2 = { 255 255 255 }
+				}
+
+				b_wall_of_one_thousand_needles = {
+					province = 103
+
+					color = { 246 217 93 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_mount_idaho = {
+			color = { 61 61 61 }
+			color2 = { 255 255 255 }
+
+			capital = c_mount_idaho
+
+			c_mount_idaho = {
+				color = { 149 238 154 }
+				color2 = { 255 255 255 }
+
+				b_mount_idaho = {
+					province = 104
+
+					color = { 149 238 154 }
+					color2 = { 255 255 255 }
+				}
+
+				b_side_summit = {
+					province = 115
+
+					color = { 236 130 113 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_bannerjee = {
+				color = { 246 204 109 }
+				color2 = { 255 255 255 }
+
+				definite_form = yes
+
+				b_bannerjees_sietch = {
+					province = 228
+
+					definite_form = yes
+
+					color = { 125 125 141 }
+					color2 = { 255 255 255 }
+				}
+
+				b_tusk = {
+					province = 116
+
+					definite_form = yes
+
+					color = { 76 38 45 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_bight_of_the_cliff = {
+			color = { 191 128 131 }
+			color2 = { 255 255 255 }
+
+			capital = c_bight_of_the_cliff
+
+			c_bight_of_the_cliff = {
+				color = { 178 242 75 }
+				color2 = { 255 255 255 }
+
+				b_otheyms_sietch = {
+					province = 229
+
+					color = { 130 111 209 }
+					color2 = { 255 255 255 }
+				}
+
+				b_bight_of_the_cliff = {
+					province = 65
+
+					color = { 178 242 75 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_silmal_edge = {
+				color = { 47 133 183 }
+				color2 = { 255 255 255 }
+
+				b_chatts_sietch = {
+					province = 231
+
+					color = { 57 50 133 }
+					color2 = { 255 255 255 }
+				}
+
+				b_silmal_edge = {
+					province = 117
+
+					color = { 47 133 183 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_celimyn = {
+				color = { 147 205 140 }
+				color2 = { 255 255 255 }
+
+				b_tecrubes_sietch = {
+					province = 230
+
+					color = { 51 31 53 }
+					color2 = { 255 255 255 }
+				}
+
+				b_celimyn = {
+					province = 118
+
+					color = { 147 205 140 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_tabr = {
+			color = { 159 156 21 }
+			color2 = { 255 255 255 }
+
+			capital = c_sietch_tabr
+
+			c_tabr = {
+				color = { 235 145 148 }
+				color2 = { 255 255 255 }
+
+				b_sietch_tabr = {
+					province = 106
+
+					color = { 235 145 148 }
+					color2 = { 255 255 255 }
+				}
+
+				b_tabr = {
+					province = 165
+
+					color = { 235 145 148 }
+					color2 = { 255 255 255 }
+				}
+
+				b_tabr_pyons = {
+					province = 166
+
+					color = { 235 145 148 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_eni_barac = {
+				color = { 195 28 188 }
+				color2 = { 255 255 255 }
+
+				b_eni_barac {
+					province = 114
+
+					color = { 195 28 188 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_spine_of_arrakis = {
+				color = { 211 70 79 }
+				color2 = { 255 255 255 }
+
+				b_spine_of_arrakis {
+					province = 107
+
+					color = { 211 70 79 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+}

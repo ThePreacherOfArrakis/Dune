@@ -1,0 +1,16 @@
+﻿pyons_holding = {
+	alias = { pyons pyons_holdings }
+	parent = holding_type
+	texture = "gfx/interface/icons/icon_holding_pyons.dds"
+}
+
+tribal_holding = {
+	alias = { tribe tribes tribal_holdings }
+	parent = holding_type
+	texture = "gfx/interface/icons/icon_holding_tribal.dds"
+}
+
+sietch_holding = {
+	alias = { sietch sietches sietch_holdings }
+	parent = holding_type
+}

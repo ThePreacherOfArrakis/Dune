@@ -1,0 +1,667 @@
+#Fremen characters
+
+fremen0001 = {
+    name = "Farok" # Farok," Naib of Dune
+	religion = "zensunni"
+	culture = "fremen"
+	10147.3.19 = {
+		birth = yes
+	}
+
+    10218.1.1 = {
+        death = yes
+    }
+}
+
+fremen0002 = { # Stilgar Ben Fifrawi of Sietch Tabr
+    name = "Stilgar"
+	dynasty = 2
+	religion = "zensunni"
+	culture = "fremen"
+	father = fremen0033
+	10141.2.12 = {
+		birth = yes
+	}
+
+	10165.1.1 = {
+		add_concubine = fremen0035
+	}
+
+    10228.1.1 = {
+        death = yes
+    }
+}
+
+fremen0003 = {
+	name = "Ghadean" # Ghadean, Naib of Dune
+	dynasty = 3
+	religion = "zensunni"
+	culture = "fremen"
+	10155.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0004 = {
+	name = "Korba" # Korba, Naib of Dune
+	dynasty = 4
+	religion = "zensunni"
+	culture = "fremen"
+	10161.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0019 = {
+	name = "Djedida" # Djedida, Secretary of Korba
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10165.1.1 = {
+		birth = yes
+	}
+
+    10235.1.1 = {
+        death = yes
+    }
+}
+
+fremen0005 = {
+	name = "Hobars" # Hobars, Naib of Dune
+	dynasty = 5
+	religion = "zensunni"
+	culture = "fremen"
+	10138.1.1 = {
+		birth = yes
+	}
+
+    10198.1.1 = {
+        death = yes
+    }
+}
+
+fremen0006 = {
+	name = "Rajifiri" # Rajifiri, Naib of Dune
+	dynasty = 6
+	religion = "zensunni"
+	culture = "fremen"
+	10163.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0007 = {
+	name = "Tasmin" # Tasmin, Naib of Dune
+	dynasty = 7
+	religion = "zensunni"
+	culture = "fremen"
+	10164.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0008 = {
+	name = "Saajid" # Saajid, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10162.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0009 = {
+	name = "Umbu" # Umbu, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10165.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0010 = {
+	name = "Legg" # Legg, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10161.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0011 = {
+	name = "Merkur" # Merkur, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10122.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0012 = {
+	name = "Fash" # Fash, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10146.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0013 = {
+	name = "Keke" # Keke "the Lame," Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	trait = clubfooted
+	10119.1.1 = {
+		birth = yes
+	}
+
+	10187.1.1 = {
+		give_nickname = nick_the_lame
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0014 = {
+	name = "Takim" # Takim, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10144.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0015 = {
+	name = "Bikouros" # Bikouros, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10153.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0016 = {
+	name = "Cahueit" # Cahueit, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10159.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0017 = {
+	name = "Bannerjee" # Bannerjee, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10138.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0018 = {
+	name = "Abumojandis" # Abumojandis, Secretary of Bannerjee
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10166.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0020 = {
+	name = "Shishakli" # Shishakli, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10149.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0021 = {
+	name = "Turok" # Turok, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10138.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0022 = {
+	name = "Tecrube" # Tecrube, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10152.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0023 = {
+	name = "Shoab" # Shoab, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10162.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0024 = {
+	name = "Otheym" # Otheym, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10145.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0025 = {
+	name = "Geoff" # Geoff, Naib of Dune
+	dynasty = 9
+	religion = "zensunni"
+	culture = "fremen"
+	10147.1.1 = {
+		birth = yes
+	}
+
+    10182.1.1 = {
+        death = {
+			death_reason = death_murder
+			killer = fremen0027
+		}
+    }
+}
+
+fremen0026 = {
+	name = "Kaleff" # Kaleff, Son of Geoff
+	dynasty = 9
+	religion = "zensunni"
+	culture = "fremen"
+	father = fremen0025
+	mother = fremen0032
+	10178.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0027 = {
+	name = "Jamis" # Jamis, Naib of Dune
+	dynasty = 10
+	religion = "zensunni"
+	culture = "fremen"
+	10159.1.1 = {
+		birth = yes
+	}
+
+    10191.1.1 = {
+        death = yes
+    }
+}
+
+fremen0028 = {
+	name = "Orlop" # Orlop, Son of Jamis
+	dynasty = 10
+	religion = "zensunni"
+	culture = "fremen"
+	father = fremen0027
+	mother = fremen0032
+	10183.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0029 = {
+	name = "Chatt" # Chatt "the Leaper," Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10157.1.1 = {
+		birth = yes
+	}
+
+	10165.1.1 = {
+		give_nickname = nick_the_leaper
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0030 = {
+	name = "Heinar" # Heinar, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10145.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0031 = {
+	name = "Esmar" # Esmar Tuek, Smuggler of Dune
+	dynasty = 12
+	religion = "zensunni"
+	culture = "fremen"
+	10123.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0032 = {
+	name = "Harah" # Harah, Wife of Jamis, Former Wife of Geoff, Future servant of Paul
+	female = yes
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10158.1.1 = {
+		birth = yes
+	}
+
+	10176.1.1 = {
+		add_spouse = fremen0025
+	}
+
+	10182.1.1 = {
+		remove_spouse = fremen0025
+		add_spouse = fremen0027
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0033 = {
+	name = "Fifrawi" # Fifrawi, Father of Stilgar
+	dynasty = 2
+	religion = "zensunni"
+	culture = "fremen"
+	10121.1.1 = {
+		birth = yes
+	}
+
+    10185.1.1 = {
+        death = {
+			death_reason = death_old_age
+		}
+    }
+}
+
+fremen0034 = {
+	name = "Mitra" # Mitra, Non-canon First wife of Stilgar
+	female = yes
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10145.1.1 = {
+		birth = yes
+	}
+
+	10161.1.1 = {
+		add_spouse = fremen0002
+	}
+
+    10202.1.1 = {
+        death = {
+			death_reason = death_old_age
+		}
+    }
+}
+
+fremen0035 = {
+	name = "Tharthar" # Tharthar, Second wife of Stilgar
+	female = yes
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10149.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = {
+			death_reason = death_old_age
+		}
+    }
+}
+
+fremen0036 = {
+	name = "Ismad" # Ismad, Non-canon Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10114.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0037 = {
+	name = "Musab" # Musab, Non-canon Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10144.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0038 = {
+	name = "Makab" # Makab, Partial-canon Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10147.1.1 = {
+		birth = yes
+	}
+
+    10202.1.1 = {
+        death = yes
+    }
+}
+
+fremen0039 = {
+	name = "Liet" # Liet Kynes, Father of Chani, Imperial Planetologist
+	dynasty = 11
+	religion = "zensunni"
+	culture = "fremen"
+	father = fremen0040
+	10156.1.1 = {
+		birth = yes
+	}
+
+    10191.1.1 = {
+        death = yes
+    }
+}
+
+fremen0040 = {
+	name = "Pardot" # Pardot Kynes, Father of Liet Kynes, Imperial Planetologist
+	dynasty = 11
+	religion = "zensunni"
+	culture = "fremen"
+	10133.1.1 = {
+		birth = yes
+	}
+
+    10175.1.1 = {
+        death = yes
+    }
+}
+
+fremen0041 = {
+	name = "Harg" # Harg, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10133.1.1 = {
+		birth = yes
+	}
+
+    10192.1.1 = {
+        death = yes
+    }
+}
+
+fremen0042 = {
+	name = "Dhartha" # Dhartha, Naib of Dune
+	dynasty = 8
+	religion = "zensunni"
+	culture = "fremen"
+	10148.1.1 = {
+		birth = yes
+	}
+
+    10192.1.1 = {
+        death = yes
+    }
+}
+
+fremen0050 = {
+	name = "Chani" # Chani Kynes, Concubine of Paul
+	female = yes
+	dynasty = 11
+	religion = "zensunni"
+	culture = "fremen"
+	father = fremen0039
+	10177.1.1 = {
+		birth = yes
+	}
+
+    10205.1.1 = {
+        death = yes
+    }
+}
+
+fremen0051 = {
+	name = "Mapes" # Shadout Mapes, Fremen Housekeeper of Atreides
+	female = yes
+	religion = "zensunni"
+	culture = "fremen"
+	10113.1.1 = {
+		birth = yes
+	}
+
+	10190.1.1 = {
+		employer = caladaen0001
+	}
+
+    10205.1.1 = {
+        death = yes
+    }
+
+}

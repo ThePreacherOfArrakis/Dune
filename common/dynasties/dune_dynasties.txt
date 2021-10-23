@@ -1,0 +1,19 @@
+1 = {
+	name = "dynn_Atreides"
+	culture = "caladaen"
+}
+
+2 = {
+	name = "dynn_Fifrawi"
+	culture = "fremen"
+}
+
+11 = {
+	name = "dynn_Kynes"
+	culture = "fremen"
+}
+
+12 = {
+	name = "dynn_Tuek"
+	culture = "fremen"
+}

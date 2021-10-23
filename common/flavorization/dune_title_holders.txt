@@ -1,0 +1,341 @@
+﻿# Accepted categories are: governments, cultures, culture_groups, faiths, religions
+# A Flavorization will apply if ALL specified categories have ANY of their entries
+# represented in the character/title
+# So for example:
+# governments = { feudal_government }
+# culture_groups = { mongolic_group central_germanic_group }
+# religions = { christianity_religion }
+# cultures = { norse }
+# faiths = { catholicism }
+# For this to apply a character MUST BE feudal, AND must also be EITHER altaic OR germanic
+# priority is used to determine priority, if they are the same then the LAST will be selected,
+# and honorifics will be prefered over landed titles. Default priority is 1
+# If a flavorization does not have a tier it can apply to all tiers of characters, too many non-tiered
+# flavorizations is bad for performance though, YOU HAVE BEEN WARNED!
+# 'top_liege = no' means that its the holder of the title causing the honorific that is tested for
+# the various categories, so for a prince it is the king that is tested, for a queen mother it is her son
+# if this is not specified ( or 'top_liege = yes' the default ) then it is the top liege of that character
+# that is tested, this means that most title flavor comes from the top liege of the title not the holder
+
+
+#############################################
+
+### Wanderer ###
+#titles
+barony_wanderer_group = {
+	type = title
+	tier = barony
+	priority = 1000
+	governments = { feudal_government tribal_government }
+	culture_groups = { wanderer_group }
+}
+county_wanderer_group = {
+	type = title
+	tier = county
+	priority = 1000
+	governments = { feudal_government tribal_government }
+	culture_groups = { wanderer_group }
+}
+duchy_wanderer_group = {
+	type = title
+	tier = duchy
+	priority = 1000
+	governments = { feudal_government tribal_government }
+	culture_groups = { wanderer_group }
+}
+kingdom_wanderer_group = {
+	type = title
+	tier = kingdom
+	priority = 1000
+	governments = { feudal_government tribal_government }
+	culture_groups = { wanderer_group }
+}
+empire_wanderer_group = {
+	type = title
+	tier = empire
+	priority = 1000
+	governments = { feudal_government tribal_government }
+	culture_groups = { wanderer_group }
+}
+
+# Tribal
+baron_tribal_male_wanderer_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 1000
+	governments = { tribal_government }
+	culture_groups = { wanderer_group }
+}
+baron_tribal_female_wanderer_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 1000
+	governments = { tribal_government }
+	culture_groups = { wanderer_group }
+}
+count_tribal_male_wanderer_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 1000
+	governments = { tribal_government }
+	culture_groups = { wanderer_group }
+}
+count_tribal_female_wanderer_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 1000
+	governments = { tribal_government }
+	culture_groups = { wanderer_group }
+}
+duke_tribal_male_wanderer_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 1000
+	governments = { tribal_government }
+	culture_groups = { wanderer_group }
+}
+duke_tribal_female_wanderer_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 1000
+	governments = { tribal_government }
+	culture_groups = { wanderer_group }
+}
+# Feudal
+baron_feudal_male_wanderer_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 1000
+	governments = { feudal_government }
+	culture_groups = { wanderer_group }
+}
+baron_feudal_female_wanderer_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 1000
+	governments = { feudal_government }
+	culture_groups = { wanderer_group }
+}
+count_feudal_male_wanderer_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 1000
+	governments = { feudal_government }
+	culture_groups = { wanderer_group }
+}
+count_feudal_female_wanderer_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 1000
+	governments = { feudal_government }
+	culture_groups = { wanderer_group }
+}
+duke_feudal_male_wanderer_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 1000
+	governments = { feudal_government }
+	culture_groups = { wanderer_group }
+}
+duke_feudal_female_wanderer_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 1000
+	governments = { feudal_government }
+	culture_groups = { wanderer_group }
+}
+
+### Imperial ###
+#special
+
+na_baron = {
+	type = character
+	special = ruler_child
+	tier = barony
+	governments = { feudal_government }
+	culture_groups = { imperial_group }
+	priority = 7
+}
+
+#titles
+barony_imperial_group = {
+	type = title
+	tier = barony
+	priority = 1000
+	governments = { feudal_government tribal_government }
+	culture_groups = { imperial_group }
+}
+county_imperial_group = {
+	type = title
+	tier = county
+	priority = 1000
+	governments = { feudal_government tribal_government }
+	culture_groups = { imperial_group }
+}
+duchy_imperial_group = {
+	type = title
+	tier = duchy
+	priority = 1000
+	governments = { feudal_government tribal_government }
+	culture_groups = { imperial_group }
+}
+kingdom_imperial_group = {
+	type = title
+	tier = kingdom
+	priority = 1000
+	governments = { feudal_government tribal_government }
+	culture_groups = { imperial_group }
+}
+empire_imperial_group = {
+	type = title
+	tier = empire
+	priority = 1000
+	governments = { feudal_government tribal_government }
+	culture_groups = { imperial_group }
+}
+
+# Tribal
+baron_tribal_male_imperial_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 1000
+	governments = { tribal_government }
+	culture_groups = { imperial_group }
+}
+baron_tribal_female_imperial_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 1000
+	governments = { tribal_government }
+	culture_groups = { imperial_group }
+}
+count_tribal_male_imperial_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 1000
+	governments = { tribal_government }
+	culture_groups = { imperial_group }
+}
+count_tribal_female_imperial_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 1000
+	governments = { tribal_government }
+	culture_groups = { imperial_group }
+}
+duke_tribal_male_imperial_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 1000
+	governments = { tribal_government }
+	culture_groups = { imperial_group }
+}
+duke_tribal_female_imperial_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 1000
+	governments = { tribal_government }
+	culture_groups = { imperial_group }
+}
+# Feudal
+baron_feudal_male_imperial_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 1000
+	governments = { feudal_government }
+	culture_groups = { imperial_group }
+}
+baron_feudal_female_imperial_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 1000
+	governments = { feudal_government }
+	culture_groups = { imperial_group }
+}
+count_feudal_male_imperial_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 1000
+	governments = { feudal_government }
+	culture_groups = { imperial_group }
+}
+count_feudal_female_imperial_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 1000
+	governments = { feudal_government }
+	culture_groups = { imperial_group }
+}
+duke_feudal_male_imperial_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 1000
+	governments = { feudal_government }
+	culture_groups = { imperial_group }
+}
+duke_feudal_female_imperial_group = {
+	type = character
+	gender = female
+	special = holder
+	only_holder = yes
+	tier = duchy
+	priority = 1000
+	governments = { feudal_government }
+	culture_groups = { imperial_group }
+}
+lady_feudal_female_imperial_group = {
+	type = character
+	gender = female
+	special = holder
+	only_holder = no
+	tier = duchy
+	priority = 1000
+	governments = { feudal_government }
+	culture_groups = { imperial_group }
+}

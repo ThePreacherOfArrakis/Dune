@@ -1,0 +1,1157 @@
+#k_arrakis
+##d_imperial_basin
+1 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+2 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+3 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+4 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+5 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+6 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+7 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+8 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+9 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+10 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+11 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+12 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+13 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+14 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+15 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+16 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+17 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+18 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+19 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+20 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+21 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+22 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+23 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+24 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+25 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+26 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+27 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+28 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+29 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+30 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+31 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+32 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+33 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+34 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+35 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+36 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+37 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+38 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+39 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+40 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+41 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+42 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+43 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+44 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+45 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+46 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+47 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+48 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+49 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+50 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+51 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+52 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+53 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+54 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+55 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+56 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+57 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+58 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+59 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+60 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+61 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+62 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+63 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+64 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+65 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+66 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+67 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+68 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+69 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+70 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+71 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+72 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+73 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+74 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+75 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+76 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+77 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+78 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+79 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+80 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+81 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+82 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+83 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+84 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+85 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+86 = {
+	culture = fremen
+	religion = zensunni
+	holding = city_holding
+}
+87 = {
+	culture = fremen
+	religion = zensunni
+	holding = castle_holding
+}
+88 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+89 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+90 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+91 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+92 = {
+	culture = fremen
+	religion = zensunni
+	holding = city_holding
+}
+93 = {
+	culture = fremen
+	religion = zensunni
+	holding = castle_holding
+}
+94 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+95 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+96 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+97 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+98 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+99 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+100 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+101 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+102 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+103 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+104 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+105 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+106 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+107 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+108 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+109 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+110 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+111 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+112 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+113 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+114 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+115 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+116 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+117 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+118 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+119 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+120 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+121 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+122 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+123 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+124 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+125 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+126 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+127 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+128 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+129 = {
+	culture = fremen
+	religion = zensunni
+	holding = pyons_holding
+}
+130 = {
+	culture = fremen
+	religion = zensunni
+	holding = pyons_holding
+}
+131 = {
+	culture = fremen
+	religion = zensunni
+	holding = pyons_holding
+}
+132 = {
+	culture = fremen
+	religion = zensunni
+	holding = pyons_holding
+}
+133 = {
+	culture = fremen
+	religion = zensunni
+	holding = pyons_holding
+}
+134 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+135 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+136 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+137 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+138 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+139 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+140 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+141 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+142 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+143 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+144 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+145 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+146 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+147 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+148 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+149 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+150 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+151 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+152 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+153 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+154 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+155 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+156 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+157 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+158 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+159 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+160 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+161 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+162 = {
+	culture = fremen
+	religion = zensunni
+	holding = tribal_holding
+}
+163 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+165 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+166 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+167 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+168 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+169 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+170 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+171 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+172 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+173 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+174 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+175 = {
+	culture = fremen
+	religion = zensunni
+	holding = pyons_holding
+}
+176 = {
+	culture = fremen
+	religion = zensunni
+	holding = pyons_holding
+}
+177 = {
+	culture = fremen
+	religion = zensunni
+	holding = pyons_holding
+}
+178 = {
+	culture = fremen
+	religion = zensunni
+	holding = pyons_holding
+}
+179 = {
+	culture = fremen
+	religion = zensunni
+	holding = pyons_holding
+}
+180 = {
+	culture = fremen
+	religion = zensunni
+	holding = pyons_holding
+}
+181 = {
+	culture = fremen
+	religion = zensunni
+	holding = pyons_holding
+}
+182 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+183 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+184 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+185 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+186 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+187 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+188 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+189 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+190 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+191 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+192 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+193 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+194 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+195 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+196 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+197 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+198 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+199 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+200 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+201 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+202 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+203 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+204 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+205 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+206 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+207 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+208 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+209 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+210 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+211 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+212 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+213 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+214 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+215 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+216 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+217 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+218 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+219 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+220 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+221 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+222 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+223 = {
+	culture = fremen
+	religion = zensunni
+	holding = none
+}
+224 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+225 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+226 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+227 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+228 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+229 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+230 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+231 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}
+232 = {
+	culture = fremen
+	religion = zensunni
+	holding = sietch_holding
+}

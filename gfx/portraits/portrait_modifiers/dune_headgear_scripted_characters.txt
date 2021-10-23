@@ -1,0 +1,44 @@
+﻿
+headgear_scripted_characters = {
+	# interface_position = 1
+	usage = game
+	selection_behavior = max
+
+	leto_atreides = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				value = 0.8
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				exists = character:caladaen0001
+				this = character:caladaen0001
+			}
+		}
+	}
+	
+	jessica_atreides = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = western_nobility
+				value = 0.8
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				exists = character:bg0001
+				this = character:bg0001
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+﻿l_english:
+
+ #Bene Gesserit training
+ bene_gesserit_lifestyle_name:0 "Bene Gesserit training"
+ bene_gesserit_lifestyle_desc:0 "Focus on controlling others by the subconscious manipulation of genetically imparted commands, and developing an unconquerable self-control."
+ bene_gesserit_lifestyle_highlight_desc:0 "Because of your Bene Gesserit [education|E], you gain #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! more [experience|E] in this Lifestyle."
+ bene_gesserit_the_mouth_focus:0 "The Mouth-Tongue Focus"
+ bene_gesserit_the_mouth_focus_modifier:1 "[GetFocus('bene_gesserit_the_mouth_focus').GetName]"
+ bene_gesserit_the_mouth_focus_desc:0 "Death and life are in the power of the tongue, and they that love it shall eat the fruit thereof..."
+ bene_gesserit_the_mouth_focus_effect_desc:0 "Focusing on the mouth grants:"
+ the_mouth_name:1 "The Mouth and Tongue"
+ bene_gesserit_the_eyes_focus:0 "The Eyes-Ears Focus"
+ bene_gesserit_the_eyes_focus_modifier:1 "[GetFocus('bene_gesserit_the_eyes').GetName]"
+ bene_gesserit_the_eyes_focus_desc:0 "All others before you shall be deaf and blind, transparent as their breath."
+ bene_gesserit_the_eyes_focus_effect_desc:0 "Focusing on Family grants:"
+ the_eyes_name:1 "The Eyes and Ears"
+ bene_gesserit_the_mind_focus:0 "The Mind-Body Focus"
+ bene_gesserit_the_mind_focus_modifier:1 "[GetFocus('bene_gesserit_the_mind_focus').GetName]"
+ bene_gesserit_the_mind_focus_desc:0 "Pain is naught but errant cognition. Temper your mind; steel your body."
+ bene_gesserit_the_mind_focus_effect_desc:0 "Focusing on the Mind and Body grants:"
+ the_mind_name:1 "The Mind and Body"

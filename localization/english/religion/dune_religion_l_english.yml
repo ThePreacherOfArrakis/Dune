@@ -1,0 +1,11 @@
+﻿l_english:
+
+ #Holy Sites: Zensunni
+ holy_site_desert_of_zan_name:0 "Desert of Zan"
+ holy_site_desert_of_zan_effect_name:0 "From [holy_site|E] #weak ($holy_site_desert_of_zan_name$)#!"
+ holy_site_desert_of_zan_effects:0 "County Conversion Speed: #P +20%#!"
+ holy_site_cave_of_birds_name:0 "Cave of Birds"
+ holy_site_cave_of_birds_effect_name:0 "From [holy_site|E] #weak ($holy_site_cave_of_birds_name$)#!"
+ holy_site_cave_of_birds_effects:0 "County Conversion Speed: #P +20%#!"
+
+ rf_maomethic:0 "Maomethic"

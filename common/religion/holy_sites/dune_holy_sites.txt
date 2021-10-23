@@ -1,0 +1,23 @@
+#############
+# Buddislam #
+#############
+
+# Zensunni
+
+desert_of_zan = {
+	county = c_desert_of_zan
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	#flag = desert_of_zan_conversion_bonus # +20% County Conversion
+}
+
+cave_of_birds = {
+	county = c_habbanya_ridge_flat_west
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	#flag = cave_of_birds_conversion_bonus # +20% County Conversion
+}

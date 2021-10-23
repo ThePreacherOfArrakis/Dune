@@ -1,0 +1,29 @@
+# Bene Gesserit characters
+
+bg0001 = {
+    name = "Jessica" # Lady Jessica, Mother of Paul
+    dna = bg0001_jessica_atreides
+    female = yes
+    dynasty = 20
+    martial = 14
+	diplomacy = 16
+	intrigue = 15
+	stewardship = 14
+    learning = 16
+	religion = "zensunni"
+	culture = "caladaen"
+    trait = calm
+	trait = diligent
+	trait = patient
+	trait = education_learning_3
+    trait = beauty_good_3
+    trait = intellect_good_2
+	disallow_random_traits = yes
+	10154.1.1 = {
+		birth = yes
+	}
+
+    10256.1.1 = {
+        death = yes
+    }
+}
