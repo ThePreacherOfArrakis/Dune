@@ -4,5 +4,5 @@ tags={
 	"Character Interactions"
 	"Events"
 }
-name="Dune"
-supported_version="1.2.*"
+name="Dune: Jihad"
+supported_version="1.4.*"
