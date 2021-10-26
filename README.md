@@ -1,4 +1,4 @@
-# Dune
+# Dune: Jihad
 
 [Releases](https://github.com/ThePreacherOfArrakis/Dune/releases)
 
